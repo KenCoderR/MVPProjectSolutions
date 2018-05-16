@@ -1,0 +1,75 @@
+﻿@model MVPProjectOne.Models.ProductSold
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ProductSold</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ProductId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ProductId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ConsumerId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ConsumerId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StoreId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StoreId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataSold)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataSold)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Customer_Id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Customer_Id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Store_Id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Store_Id)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Product_Id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Product_Id)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
