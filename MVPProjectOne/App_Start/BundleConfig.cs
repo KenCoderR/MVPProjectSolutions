@@ -24,7 +24,7 @@ namespace MVPProjectOne
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
+                      "~/Content/bootstrap_Cyborg.css",
                       "~/Content/site.css"));
         }
     }
